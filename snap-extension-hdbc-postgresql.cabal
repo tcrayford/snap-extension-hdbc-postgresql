@@ -20,8 +20,8 @@ Library
 
   Build-depends:
       base >= 4 && < 5
-    , snap >= 0.4 && < 0.5
-    , snap-core >= 0.4 && < 0.5
+    , snap == 0.5.*
+    , snap-core == 0.5.*
     , HDBC == 2.2.7.*
     , HDBC-postgresql == 2.2.3.*
     , snap-extension-hdbc == 0.0.*
